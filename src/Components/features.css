@@ -1,0 +1,36 @@
+
+.features-img{
+    position: relative;
+    z-index: 0;
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+.features-overlay{
+    position: absolute;
+    top: 0;
+    height: 475px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.features-heading{
+    position: absolute;
+    top: 30%;
+    z-index: 1;
+    width: 100%;
+    font-size: 50px;
+    font-weight: 900;
+    color: white;
+}
+.features-offer{
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+}
+.border-bot{
+    border-bottom: 5px solid green ;
+}
+.highlight{
+    font-weight: 650;
+    color: rgb(253, 122, 7);
+}
